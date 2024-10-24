@@ -15,17 +15,17 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ♡ 𝙽𝙸 𝚂 𝙰𝙽 ♡ ";
+		const authorName = " ♡ JUNAYED♡ ";
 		const ownAge = "『 20 』";
-		const messenger = "https://m.me/disting.disting.need05";
-		const authorFB = "https://www.facebook.com/disting.disting.need05";
-		const authorNumber = "_01775602198";
+		const messenger = "https://m.me/Mdyeasin.Arafat.Junayed";
+		const authorFB = "https://www.facebook.com/Mdyeasin.Arafat.Junayed";
+		const authorNumber = "_01845546501";
 		const Status = "_𝘚𝘪𝘯𝘨𝘭𝘦 𝘗𝘳𝘰 𝘔𝘢𝘹 ⛱";
 		const urls = [
 "https://i.imgur.com/hDTLa1z.jpeg",
 "https://i.imgur.com/WRDSYlU.gif",
-"https://i.imgur.com/hDTLa1z.jpeg",
-"https://i.imgur.com/WRDSYlU.gif"
+"",
+""
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -52,10 +52,9 @@ module.exports = {
 \🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 : ${messenger}
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
     𝑻𝒈: https://t.me/nisan_editz
-    𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/im_editz_x2.0?
-    𝑪𝒂𝒑𝑪𝒖𝒕: https://mobile.capcutshare.com/s/Zs8BaEVBB/
-    𝑻𝒊𝒌𝑻𝒐𝒌: https://www.tiktok.com/@nisan_max_editz_zone?
-    𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/@nisan_max_editz-zone_185?
+    𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/junayed69
+    𝑻𝒊𝒌𝑻𝒐𝒌: https://www.tiktok.com/@junayed69xyz
+    
 \===============`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
